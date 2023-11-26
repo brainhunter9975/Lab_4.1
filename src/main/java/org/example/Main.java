@@ -18,6 +18,9 @@ public class Main {
 
     public static boolean isPalindrome(String str) {
         // Видаляємо пробіли та регістрові різниці
+        if (str == null) {
+            return true;
+        }
         String cleanStr = str.replaceAll("\\s+", "");
 
         int left = 0;
