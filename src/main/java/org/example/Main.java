@@ -13,9 +13,7 @@ public class Main {
 
         if (isPalindrome(inputString)) {
             System.out.println("Це паліндром");
-        } else {
-            System.out.println("Це не паліндром");
-        }
+        } else System.out.println("Це не паліндром");
     }
 
     public static boolean isPalindrome(String str) {
