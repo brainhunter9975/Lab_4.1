@@ -22,7 +22,6 @@ public class Main {
             return true;
         }
         String cleanStr = str.replaceAll("\\s+", "");
-
         int left = 0;
         int right = cleanStr.length() - 1;
 
